@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Setting your website</h1>
+
+  <form id="settingsForm">
+    <!-- Background Color -->
+    <label for="bgColor">Background Color:</label>
+    <input type="color" id="bgColor">
+
+    <!-- Font Color -->
+    <label for="fontColor">Font Color:</label>
+    <input type="color" id="fontColor">
+
+    <!-- Font Size -->
+    <label for="fontSize">Font Size:</label>
+    <select id="fontSize">
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select>
+
+    <div>
+      <button type="button" id="saveBtn">Save</button>
+      <button type="button" id="resetBtn">Reset</button>
+    </div>
+  </form>
+    <script src="./main.js" type="module"></script>
+</body>
+</html>

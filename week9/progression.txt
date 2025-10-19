@@ -1,0 +1,5 @@
+นำเรื่อง event มาทบทวน
+1. click เป็น event ที่เกิดจากการที่เรา click mouse 
+2.keydown เป็น event ที่เกิดตอนที่เรา typing 
+3.enter เป็น event ที่เกิดตอนที่เรากดปุ่ม Enter
+และทบทวนการ query
